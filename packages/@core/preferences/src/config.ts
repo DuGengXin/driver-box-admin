@@ -19,7 +19,7 @@ const defaultPreferences: Preferences = {
     layout: 'sidebar-nav',
     locale: 'zh-CN',
     loginExpiredMode: 'page',
-    name: 'Driver-Box Admin',
+    name: 'Vben Admin',
     preferencesButtonPosition: 'auto',
     watermark: false,
   },
@@ -31,7 +31,7 @@ const defaultPreferences: Preferences = {
     styleType: 'normal',
   },
   copyright: {
-    companyName: 'Vben & JRLinks',
+    companyName: 'Vben',
     companySiteLink: 'https://www.vben.pro',
     date: '2024',
     enable: true,

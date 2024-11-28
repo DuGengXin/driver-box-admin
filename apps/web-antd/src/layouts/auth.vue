@@ -4,10 +4,11 @@ import { computed } from 'vue';
 import { AuthPageLayout } from '@vben/layouts';
 import { preferences } from '@vben/preferences';
 
+import Favicon from '#/assert/favicon.svg';
 import { $t } from '#/locales';
 
 const appName = computed(() => preferences.app.name);
-const logo = computed(() => preferences.logo.source);
+const logo = Favicon;
 </script>
 
 <template>
