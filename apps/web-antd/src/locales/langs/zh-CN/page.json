@@ -8,7 +8,7 @@
   },
   "dashboard": {
     "title": "概览",
-    "analytics": "分析页",
+    "devices": "设备管理",
     "workspace": "工作台"
   }
 }

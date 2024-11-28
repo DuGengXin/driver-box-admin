@@ -42,6 +42,17 @@ interface HttpResponse<T = any> {
   message: string;
 }
 
+export interface HttpResponseGo<T = any> {
+  /**
+   * 0 表示成功 其他表示失败
+   * 0 means success, others means fail
+   */
+  success: boolean;
+  errorCode: number;
+  data: T;
+  errorMsg: string;
+}
+
 export type {
   HttpResponse,
   MakeErrorMessageFn,
